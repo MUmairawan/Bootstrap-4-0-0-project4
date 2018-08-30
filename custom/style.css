@@ -1,0 +1,214 @@
+body {
+    font-family: 'Frijole', cursive;
+}
+
+/*navbar*/
+
+.nav-link {
+    font-size: 2em;
+    font-style: italic;
+    color: chartreuse;
+}
+
+.nav-link:hover {
+    color: whitesmoke;
+}
+
+/*end of navbar*/
+
+.box {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+#banner {
+    padding: 0 2.5em;
+    height: 100vh;
+    background: url(../images/3.jpg) fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-style: italic;
+}
+
+#banner h1 {
+    color: red;
+
+}
+
+#banner p {
+    color: whitesmoke;
+}
+
+#banner .card {
+    background: transparent;
+    border: 0.2em solid whitesmoke;
+}
+
+#banner .form-control {
+    font-size: 1.5em;
+    background-color: whitesmoke;
+}
+
+#banner .btn {
+    padding: 0.3em 1.5em;
+    border-radius: 2em;
+    background-color: #343431;
+    color: #F15025;
+    font-size: 24px;
+}
+
+#banner .btn:hover {
+    background-color: whitesmoke;
+}
+
+/*skills start section*/
+
+.title-underline {
+    width: 14em;
+    border: 0.3em solid #F15025;
+    margin: 0 auto 1em auto;
+}
+
+#skill .margin {
+    margin-bottom: 2em;
+}
+
+#skill {
+    background-color: grey;
+    padding: 2em;
+}
+
+#skill .fa {
+    font-size: 6em;
+    color: greenyellow;
+}
+
+
+/*end skills section*/
+
+/*start price section*/
+
+#price {
+    padding: 8em 2em;
+    background: url(../images/4.jpg) fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-style: italic;
+}
+
+#price .card {
+    margin-bottom: 2em;
+    padding: 2em 1em;
+}
+
+#price .money {
+    font-size: 2em;
+}
+
+#price .card a {
+    padding: .7em 1em;
+    color: #775253;
+    background-color: sandybrown;
+}
+
+#price .card a:hover {
+
+    color: whitesmoke;
+    background-color: yellowgreen;
+}
+
+#price hr {
+    height: 0.2em;
+    color: #775253;
+}
+
+/*end price section*/
+
+/*team*/
+
+#team {
+    padding: 2em;
+    background-color: #2A2B2A;
+    color: #F8F4E3;
+}
+
+#team .card {
+    color: #2A2B2A;
+    margin-bottom: 2em;
+}
+
+#team .card a {
+    background-color: grey;
+    color: #F15025;
+    font-size: 24px;
+
+}
+
+#team .card a:hover {
+    background-color: whitesmoke;
+
+
+}
+
+/*end of team*/
+
+/*footer*/
+
+#footer {
+    padding: 40px;
+    background-color: #343431;
+    color: whitesmoke;
+}
+
+#footer .font-icons {
+
+
+    font-size: 60px;
+
+}
+
+#footer .font-icons a {
+    color: burlywood;
+    text-decoration: none;
+
+
+}
+
+#footer .font-icons a:hover {
+    color: lightgray;
+}
+
+#footer .copyright {
+    padding: 10px;
+    color: #F15025;
+}
+
+#footer hr {
+    height: 0.1em;
+    background-color: antiquewhite;
+}
+
+/*end of footer*/
+
+@media screen and (max-width:576px) {
+    #banner .box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+}
+
+
+@media screen and (max-width:321px) {
+    .title-underline {
+        width: 8em;
+
+    }
+    #size1 {
+        font-size: 60px;
+    }
+}
